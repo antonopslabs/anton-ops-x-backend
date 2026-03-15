@@ -1,0 +1,13 @@
+{
+  "name": "anton-ops-x-backend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vercel dev",
+        "build": "echo \"no build step\"",
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "twitter-api-v2": "1.16.0"
+  }
+}
