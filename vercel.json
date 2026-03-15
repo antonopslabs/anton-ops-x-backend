@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+        {
+      "src": "api/tweet.ts",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/tweet",
+      "dest": "/api/tweet.ts"
+    }
+  ]
+}
